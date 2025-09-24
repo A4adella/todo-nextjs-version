@@ -57,8 +57,8 @@ This project was developed as part of my learning journey, focusing on handling 
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/your-username/todomaster-nextjs.git
-cd todomaster-nextjs
+git clone https://github.com/A4adella/todo-nextjs-version.git
+cd todo-nextjs-version
 npm install
 
 ```
@@ -71,7 +71,7 @@ The app will be available at [http://localhost:3000](http://localhost:3000)
 
 This project would not have been possible without guidance and encouragement.  
 
-- A special thank you to **Mr. Setemi**, my instructor, for patiently guiding me through this project and making sure I understood the *why* behind each step.  
+- A special thank you to **Mr. Setemi**, my instructor, for making sure I understood the *why* behind each step.  
 - To **Mariam**, for the constant support, encouragement, and motivation to keep pushing through.  
 
 ---
