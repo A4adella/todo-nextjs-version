@@ -1,36 +1,102 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📝 TodoMaster – A Modern Todo App with Next.js
 
-## Getting Started
+TodoMaster is a simple, clean, and modern Todo application built with **Next.js 15 (App Router)**, **React Query**, **TypeScript**, and **ShadCN UI**.  
+This project was developed as part of my learning journey, focusing on handling **client/server components**, **data persistence**, and **clean UI design**.  
 
-First, run the development server:
+---
+
+## 🚀 Features
+
+- ✅ Create new todos  
+- ✏️ Edit existing todos in a modal dialog  
+- ❌ Delete todos with confirmation  
+- 🔍 Search and filter todos by status (All, Completed, Incomplete)  
+- 📑 Pagination for large todo lists  
+- 💾 Local caching using **localStorage** to improve performance  
+- 🌐 Data fetching from [JSONPlaceholder API](https://jsonplaceholder.typicode.com/todos) using **React Query**  
+- 🎨 Styled with **Tailwind CSS** + **ShadCN UI** for a modern, minimal design  
+- 📱 Responsive design for desktop and mobile  
+
+---
+
+## 🛠️ Tech Stack
+
+- [Next.js 15](https://nextjs.org/) – React framework with App Router  
+- [TypeScript](https://www.typescriptlang.org/) – Type safety  
+- [React Query (TanStack)](https://tanstack.com/query) – API data fetching & caching  
+- [Tailwind CSS](https://tailwindcss.com/) – Utility-first styling  
+- [ShadCN UI](https://ui.shadcn.com/) – Prebuilt, accessible UI components  
+- [Lucide Icons](https://lucide.dev/) – Clean, modern icons  
+
+---
+
+## 🧑‍💻 My Process
+
+1. **Setup** – Started with a Next.js + TypeScript template, added Tailwind CSS, React Query, and ShadCN UI.  
+2. **Basic Structure** – Migrated my React version into the Next.js App Router, replacing `App.tsx` with `app/page.tsx`.  
+3. **Fetching & Caching** – Used React Query for API fetching and added `localStorage` caching for offline-like behavior.  
+4. **UI Styling** – Applied Tailwind + ShadCN for a clean, modern look. Dialog modals and forms were styled for simplicity and usability.  
+5. **Features** – Added filtering, searching, editing, and pagination step by step, debugging along the way.  
+6. **Refinement** – Cleaned up accessibility, improved responsiveness, and polished the overall UX.  
+
+---
+
+## 📸 Screenshots
+
+| Todo List | Edit Modal | Todo Detail|
+|-----------|------------|------------|
+| ![Todo List Screenshot](./public/Screenshot%20(137).png) | ![Edit Modal Screenshot](/public/Screenshot%20(139).png) | ![Todo Detail](./public/Screenshot%20(138).png) 
+
+
+
+
+---
+
+## 🏃 Getting Started
+
+Clone the repository and install dependencies:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/your-username/todomaster-nextjs.git
+cd todomaster-nextjs
+npm install
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The app will be available at [http://localhost:3000](http://localhost:3000)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🙏 Acknowledgments  
 
-## Learn More
+This project would not have been possible without guidance and encouragement.  
 
-To learn more about Next.js, take a look at the following resources:
+- A special thank you to **Mr. Setemi**, my instructor, for patiently guiding me through this project and making sure I understood the *why* behind each step.  
+- To **Mariam**, for the constant support, encouragement, and motivation to keep pushing through.  
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📖 Lessons Learned  
 
-## Deploy on Vercel
+- The difference between **React (CRA/Vite)** and **Next.js App Router** setups  
+- Handling **client vs server components** in Next.js  
+- Managing **localStorage** safely in a Next.js app  
+- Using **React Query** effectively for caching and fetching data  
+- Building a clean, accessible UI with **ShadCN UI**  
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📌 Future Improvements  
+
+- ✅ Add authentication (users can have personal todo lists)  
+- ✅ Dark mode toggle  
+- ✅ Offline persistence with **IndexedDB (Dexie.js)**  
+
+---
+
+## 🧑 Author  
+
+Built with ❤️ by **Adella Emmanuel Idemetuk**  
+
+
+
