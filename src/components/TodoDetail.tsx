@@ -3,10 +3,10 @@ import Link from "next/link";
 import { useParams } from "next/navigation";
 import axios from "axios";
 import { useQuery } from "@tanstack/react-query";
-import { Card } from "../components/ui/card";
-import { Badge } from "../components/ui/badge";
-import { Skeleton } from "../components/ui/skeleton";
-import { Button } from "../components/ui/button";
+import { Card } from "./ui/card";
+import { Badge } from "./ui/badge";
+import { Skeleton } from "./ui/skeleton";
+import { Button } from "./ui/button";
 import {
   CheckCircle,
   XCircle,
