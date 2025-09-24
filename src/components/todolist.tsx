@@ -171,7 +171,7 @@ function TodoList() {
   // -----------------------------
   if (isLoading) {
     return (
-      <Card className="p-6 max-w-3xl mx-auto">
+      <Card className="p-6 max-w-3xl mx-auto border-gray-300">
         <Skeleton className="h-6 w-1/2 mb-4" />
         {[...Array(10)].map((_, i) => (
           <Skeleton key={i} className="h-4 w-full mb-2" />
@@ -185,7 +185,7 @@ function TodoList() {
   // -----------------------------
   if (error) {
     return (
-      <Card className="p-6 max-w-3xl mx-auto text-center space-y-4">
+      <Card className="p-6 max-w-3xl mx-auto text-center space-y-4 border-gray-300">
         <AddTodo />
         <p className="text-red-500 font-bold">Failed to fetch todos.</p>
         <Button
