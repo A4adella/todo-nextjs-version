@@ -81,7 +81,7 @@ export default function TodoDetail() {
         </div>
       </div>
 
-      <Button size="normal" asChild variant="outline" className="flex items-center gap-2 h-8 border-gray-300">
+      <Button size="default" asChild variant="outline" className="flex items-center gap-2 h-8 border-gray-300">
         <Link href="/">
           <ArrowLeft className="w-4 h-4" />
           Back to List

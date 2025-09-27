@@ -40,7 +40,7 @@ function AddTodo() {
           onChange={(e) => setTitle(e.target.value)}
           className="flex-1 border-gray-300 focus:border-indigo-500 focus:ring-indigo-500"
         />
-        <Button variant="" size="" type="submit" disabled={isPending} className="bg-indigo-500 cursor-pointer text-white hover:bg-indigo-600 focus:ring-indigo-500">
+        <Button variant="outline" size="default" type="submit" disabled={isPending} className="bg-indigo-500 cursor-pointer text-white hover:bg-indigo-600 focus:ring-indigo-500">
           {isPending ? "Adding..." : "Add Todo"}
         </Button>
       </form>
