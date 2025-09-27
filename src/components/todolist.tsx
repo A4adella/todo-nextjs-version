@@ -18,7 +18,7 @@ import { Card } from "./ui/card";
 import { Skeleton } from "./ui/skeleton";
 import EditTodoModal from "./EditTodoModal";
 import AddTodo from "./addtodo";
-
+import { Logout } from "@/components/logout"
 
 const TODOS_PER_PAGE = 10;
 // -----------------------------
@@ -342,6 +342,7 @@ function TodoList() {
             aria-label="Refresh Todos" size={undefined}    >
     Refresh Todos 
     </Button>
+     <Logout/>
   </div>
 )} 
 </footer>
