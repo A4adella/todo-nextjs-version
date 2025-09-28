@@ -1,11 +1,11 @@
 
-// 
+
 "use client";
 
 import { useRouter } from "next/navigation";
 import { authClient } from "@/lib/auth-client";
 import dynamic from "next/dynamic";
-import { useEffect } from "react"; // <-- Import useEffect
+import { useEffect } from "react"; 
 
 const TodoList = dynamic(() => import("@/components/todolist"), {
   loading: () => <div className="text-center mt-10">Loading...</div>,
@@ -34,3 +34,4 @@ export default function HomePage() {
 
   return <TodoList />; // Render for authenticated users
 }
+

@@ -22,13 +22,13 @@ export const signIn = async (email:string, password:string): Promise<{
     if (err instanceof Error) {
       return {
         success: false,
-        message: err.message, // string ✅
+        message: err.message, 
       };
     }
 
     return {
       success: false,
-      message: "Something went wrong", // fallback ✅
+      message: "Something went wrong", 
     };
   }
 }
